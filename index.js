@@ -58,10 +58,10 @@
         a buncha game website links, enjoy<br><br>
         game sites:
         <ul style="list-style-type:disc;">
-            <li><a href="https://gn-math.github.io/">gn-math</a></li>
-            <li><a href="https://mathwork-geometry.github.io/projects.html">3kh0 lite</a></li>
-            <li><a href="https://www.msn.com/en-us/play">msn games</a></li>
-            <li><a href="https://about-benito-mussolini.github.io/">about-benito-mussolini</a> (when you go to the site, click on the "© 2024 About Benito Mussolini" at the bottom to open the real site)</li>
+            <li><a href="https://gn-math.github.io/" target="_blank">gn-math</a></li>
+            <li><a href="https://mathwork-geometry.github.io/projects.html" target="_blank">3kh0 lite</a></li>
+            <li><a href="https://www.msn.com/en-us/play" target="_blank">msn games</a></li>
+            <li><a href="https://about-benito-mussolini.github.io/" target="_blank">about-benito-mussolini</a> (when you go to the site, click on the "© 2024 About Benito Mussolini" at the bottom to open the real site)</li>
 
             <!--
                         <li><a href="#tools">tools & exploits</a></li>
@@ -80,7 +80,7 @@
         semi-legal movie websites. watch movies, tv, anime, or whatever on your school chromebook for free, with no sign-in or anything.<br><br>
         movie websites:
         <ul style="list-style-type:disc;">
-            <li><a href="https://image-cdn.survifi.com/mov.html">riptide movies</a> (made by me, designed specifically for school chromebooks. no ads or anything)</li>
+            <li><a href="https://image-cdn.survifi.com/mov.html" target="_blank">riptide movies</a> (made by me, designed specifically for school chromebooks. no ads or anything)</li>
 
 
         </ul>

@@ -58,9 +58,11 @@
         a buncha game website links, enjoy<br><br>
         game sites:
         <ul style="list-style-type:disc;">
+            <li><a href="https://gn-math.github.io/">gn-math</a></li>
             <li><a href="https://mathwork-geometry.github.io/projects.html">3kh0 lite</a></li>
             <li><a href="https://www.msn.com/en-us/play">msn games</a></li>
             <li><a href="https://about-benito-mussolini.github.io/">about-benito-mussolini</a> (when you go to the site, click on the "© 2024 About Benito Mussolini" at the bottom to open the real site)</li>
+
             <!--
                         <li><a href="#tools">tools & exploits</a></li>
             <li><a href="#about">about</a></li>

@@ -33,7 +33,19 @@
             font-size: 45px;
             margin-bottom: 10px;
         }
-
+        .hyperlink {
+            text-decoration: none; 
+            color: rgb(139, 142, 200);
+        }
+        .hyperlink:hover {
+            text-decoration: underline; 
+            color: rgb(139, 142, 200);
+        }
+        .hyperlink-dead {
+            text-decoration:line-through;
+            text-decoration-color: rgb(139, 142, 200);
+            color: rgb(139, 142, 200);
+        }
     </style>
 </head>
 <body>
@@ -42,29 +54,32 @@
         a document to share info and resources for curing boredom at school.
         <h2>table of contents</h2>
         <ul style="list-style-type:disc;">
-            <li><a href="#annc">announcements</a></li>
-            <li><a href="#games">games</a></li>
-            <li><a href="#movies">movies/tv</a></li>
-            <li><a href="#browsing">web browsing (proxies)</a></li>
-            <li><a href="#tools">tools & exploits</a></li>
-            <li><a href="#about">about</a></li>
+            <li><a href="#annc" class="hyperlink">announcements</a></li>
+            <li><a href="#games" class="hyperlink">games</a></li>
+            <li><a href="#movies" class="hyperlink">movies/tv</a></li>
+            <li><a href="#browsing" class="hyperlink">web browsing (proxies)</a></li>
+            <li><a href="#tools" class="hyperlink">tools & exploits</a></li>
+            <li><a href="#about" class="hyperlink">about</a></li>
 
         </ul>
         
-        <h2 id="annc">announcements (8/28/2025)</h2>
+        <h2 id="annc">announcements (9/02/2025)</h2>
         riptide's now in beta to select people :))))
         <br><br>---------------------------------------------------------------------------------------------------------------------------------
 
         <h2 id="games">games</h2>
         i've played these games before!!1!<br><br>
-        a buncha game website links, enjoy<br><br>
+        a buncha game website links, enjoy! some of these are links i've found and some are custom made links that are less likely to get blocked.<br><br>
+        ⭐ = custom link
+        <br>🔥 = great site (lots of games)<br><br>
         game sites:
         <ul style="list-style-type:disc;">
-            <li><a href="https://boredmath.github.io" target="_blank">boredmath</a></li>
-            <li><a href="https://class44x.github.io/gxmes/" target="_blank">class44x</a></li>
-            <li><a href="https://mathwork-geometry.github.io/projects.html" target="_blank">3kh0 lite</a></li>
-            <li><a href="https://about-benito-mussolini.github.io/" target="_blank">about-benito-mussolini</a> (when you go to the site, click on the "© 2024 About Benito Mussolini" at the bottom to open the real site)</li>
-            <li><a href="https://www.msn.com/en-us/play" target="_blank">msn games</a></li>
+            <li>⭐ <a href="https://content-cdn.liferod.com/projects.html" target="_blank" class="hyperlink">selenite</a></li>
+            <li>🔥 <a href="https://mathwork-geometry.github.io/projects.html" target="_blank" class="hyperlink">3kh0 lite</a></li>
+            <li>🔥 <a href="https://boredmath.github.io" target="_blank" class="hyperlink">boredmath</a></li>
+            <li><a href="https://class44x.github.io/gxmes/" target="_blank" class="hyperlink">class44x</a></li>
+            <li><a href="https://about-benito-mussolini.github.io/" target="_blank" class="hyperlink">about-benito-mussolini</a> (when you go to the site, click on the "© 2024 About Benito Mussolini" at the bottom to open the real site)</li>
+            <li><a href="https://www.msn.com/en-us/play" target="_blank" class="hyperlink">msn games</a></li>
 
             <!--
                         <li><a href="#tools">tools & exploits</a></li>
@@ -78,33 +93,36 @@
             -->
 
         </ul>
-        <br>---------------------------------------------------------------------------------------------------------------------------------
+        want more game sites? many proxy sites also have games on them! you can find proxy links in the <a href="#browsing" class="hyperlink">proxy section</a>!
+        <br><br>---------------------------------------------------------------------------------------------------------------------------------
 
         <h2 id="movies">movies/tv</h2>
-        semi-legal movie websites. watch movies, tv, anime, or whatever on your school chromebook for free, with no sign-in or anything.<br><br>
+        watch movies, tv, anime, or whatever on your school chromebook for free, with no sign-in or anything.<br><br>
         movie websites:
         <ul style="list-style-type:disc;">
-            <li><a href="https://image-cdn.survifi.com/mov.html" target="_blank">riptide movies</a> (made by me, designed specifically for school chromebooks. no ads or popups, works most of the time)</li>
+            <li><a href="https://image-cdn.survifi.com/mov.html" target="_blank" class="hyperlink">riptide movies</a> (made by me, designed specifically for school chromebooks. no ads or popups, works most of the time)</li>
 
 
         </ul>
         <br>---------------------------------------------------------------------------------------------------------------------------------
 
         <h2 id="browsing">web browsing (proxies)</h2>
-        sadly, because the server i use to host my proxies are down for a few days, I can't make any proxies for about a week. come back later to get proxies!!
+        proxies are sites that allow you to access blocked websites by routing your web traffic through an external server.<br><br>
+        no proxy links yet because i'm tired 🫩
         <br><br>---------------------------------------------------------------------------------------------------------------------------------
  
         <h2 id="tools">tools & exploits</h2>
-        a bunch of different online tools and exploits for many different purposes.
+        a bunch of different online tools and exploits for many different purposes.<br>
+        please note that some of these are complicated and are for more skilled users. if you're having trouble using one of these, you can send me an email and i'll try to help you out (find in the contact section of the <a href="#about" class="hyperlink">footer</a>).
         <h4><br>unblocked youtube (invidious)</h4>
         watch youtube videos with no ads and with no school restrictions.<br><br>
-        this is done using a site called invidious, which is an alternate youtube frontend. you can use it watch any videos that are on youtube, but without any ads or stuff.
+        this is done using a site called invidious, which is an alternate youtube frontend. you can watch any videos that are on youtube, but without any ads, tracking, or restrictions.
         
         <br><br>invidious links:
         <ul style="list-style-type:disc;">
-            <li><a href="https://inv.nadeko.net" target="_blank">inv.nadeko.net</a> 🇨🇱</li>
-            <li><a href="https://yewtu.be" target="_blank"><del>yewtu.be</del></a> 🇩🇪 - currently blocked</li>
-            <li><a href="https://invidious.f5.si" target="_blank"><del>invidious.f5.si</del></a> 🇯🇵 - currently not working</li>
+            <li><a href="https://inv.nadeko.net" target="_blank" class="hyperlink">inv.nadeko.net</a> 🇨🇱 - best link! 🔥</li>
+            <li><a href="https://invidious.f5.si" target="_blank" class="hyperlink">invidious.f5.si</a> 🇯🇵 - kinda glitchy</li>
+            <li><a href="https://yewtu.be" target="_blank" class="hyperlink-dead">yewtu.be</a> 🇩🇪 - currently blocked</li>
 
 
         </ul> 
@@ -120,8 +138,9 @@
         the link is actually a small piece of code that executes when you open it, pulling the real website data directly from a web server (jsdelivr) in the form of a javascript file, then displays the data. using this system, it completely avoids securly's auto-blocker thing (which is supposed to scan websites for malicious content like games and automatically block them) because not only did securly's braindead developers not configure it to scan datalinks, they also whitelisted the server that hosts the content. they've reached the peak of stupidity.
 
         <br><br>contact<br><br>
-        if you have suggestions, requests, a link you want me to add, or want to send me the entire bee movie script, send me an email at <a href="mailto:math.homework.algebra.100@gmail.com" style="text-decoration-style: dashed;">math.homework.algebra.100@gmail.com</a> (burner account). i don't accept emails from school addresses, please use your home email address.
-
+        if you have suggestions, requests, a link you want me to add, or want to send me the entire bee movie script, send me an email at <a href="mailto:math.homework.algebra.100@gmail.com" class="hyperlink">math.homework.algebra.100@gmail.com</a> (totally non-suspicious alt account). i don't accept emails from school addresses, please use your home email address.
+        <br><br>---------------------------------------------------------------------------------------------------------------------------------
+        <br><br>all content on this document is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="hyperlink">CC BY-NC-SA 4.0</a>.
     </div>
 </body>
 </html>

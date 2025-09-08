@@ -53,7 +53,7 @@
 </head>
 <body>
     <div id="main">
-        <h1 id="title">riptide<span style="font-size: 16px; font-weight: 400;"> v1.0.4</span></h1>
+        <h1 id="title">riptide<span style="font-size: 16px; font-weight: 400;"> v1.0.5</span></h1>
         a document to share info and resources for curing boredom at school.
         <h2>table of contents</h2>
         <ul style="list-style-type:disc;">
@@ -66,8 +66,8 @@
 
         </ul>
         
-        <h2 id="annc">announcements (9/02/2025)</h2>
-        riptide's now in beta to select people :))))
+        <h2 id="annc">announcements (9/07/2025)</h2>
+        added <a href="#webview" class="hyperlink">webview bypass exploits</a> to the tools & exploits section.
         <br><br>---------------------------------------------------------------------------------------------------------------------------------
 
         <h2 id="games">games</h2>
@@ -117,7 +117,8 @@
 
         <h2 id="browsing">web browsing (proxies)</h2>
         proxies are sites that allow you to access blocked websites by routing your web traffic through an external server.<br><br>
-        most of the proxy links here are custom-made links that are for many different proxy sites. the proxy links here are organized by the different sites they link to.
+        please note that proxies can be glitchy when trying to access certain websites, and some sites, mainly social media sites like youtube and discord, will intentionally block you out if you're on a proxy. to get access to these sites, you should instead use a webview bypass exploit, found in the <a href="#tools" class="hyperlink">tools & exploits</a> section.
+        <br><br>most of the proxy links here are custom-made links that are for many different proxy sites. the proxy links here are organized by the different sites they link to.
         <br><br>✨ = new link!
         <h3><br>🧪 arsenic</h3>
         pretty nice proxy, tons of games!
@@ -187,12 +188,13 @@
 
         </ul> 
 
-        <h3><br><br>webview bypass exploits (⚠️ advanced users only!)</h3>
-        webviews are small, isolated web browsers that are embedded into apps, and are completely seperate from google chrome, meaning extensions, such as securly, can't run there. because of this, anything in a webview is completely unblocked.
+        <h3 id="webview"><br><br>webview bypass exploits (⚠️ advanced users only!)</h3>
+        webviews are small, isolated web browsers that are embedded into apps and are completely seperate from your actual browser, meaning that extensions, such as securly, won't run there. because of this, anything in a webview is completely unblocked.
         <br><br>normally, webviews within apps are confined to only be able to access a single website, but sometimes lazy (or stupid) developers forget to restrict them, and you can proceed to go on any website you'd like within the unblocked webview!
+        <br><br>the main benefit of using webviews rather than proxies to access blocked sites is that since the webview acts like a normal browser, websites aren't suspicious of you in the same way they would be with proxies. many websites like youtube don't allow people on proxies to use their site, since proxies are oftentimes used by hackers to try and hack websites, meaning it's more suspicious when you're on a proxy and some websites might try to block you out.
         <br><br>⛔ note: webview exploits are complicated and are only recommended for more experienced users with atleast basic knowledge of computers n stuff. if that's not you, you should instead use proxies to access blocked sites, as they're much more simple to use. ⛔
         <br><br><br>i've currently found two different working webview exploits, and they both have pros and cons.
-        <br><br>the chromesignin webview bypass the easier of the two, however, it has limitations such as not being able to use fullscreen mode or mouselock, which are both important if you want to do things like play first-person games and whatnot, such as with the nowgg roblox exploit found below. some benefits of it are that since it runs inside of a tab in google chrome that can be quickly closed or tabbed away from, it can be much more discreet to have open in school.
+        <br><br>the chromesignin webview bypass is the easier of the two, however, it has limitations such as not being able to use fullscreen mode or mouselock, which are both important if you want to do things like play first-person games and whatnot, such as with the nowgg roblox exploit found below. some benefits of it are that since it runs inside of a tab in google chrome that can be quickly closed or tabbed away from, it can be much more discreet to have open in school.
         <br><br>the ti84calc kiosk webview bypass is a bit more complicated, and runs within a kiosk app, meaning that it will take up your whole screen, it can't be quickly closed out of, and it runs while you're logged out from the chromeos desktop. however, it has the benefit that it supports fullscreen and mouselock.
         <br><br>if you're confused about which one to choose, i've made a handy list of use-cases that are recommended for each one:
         <br><br>chromesignin bypass:
@@ -205,7 +207,7 @@
         <ul style="list-style-type: disc;">
             <li>playing 3D or first-person games which need mouselock</li>
             <li>using the nowgg bypass to play roblox (find below)</li>
-            <li>doint anything that you need/want fullscreen for</li>
+            <li>doing anything that you need/want fullscreen for</li>
         </ul>
 
 
@@ -283,7 +285,7 @@
         at first these steps may take 5-8 minutes, but if you get it down to a science, you can do them in under 2 minutes!<br><br>
         <br>❗some important tips and info you should know when using this exploit:
         <ul style="list-style-type:disc;">
-            <li>when you want to exit the webview to go back to regular chromeos, press and hold the power button on the side of your chromebook and then click "shut down". wait for the chromebook to turn off, then click the power button again to turn it back on, which should bring you to the normal login screen.</li>
+            <li>when you want to exit the webview to go back to regular chromeos, just press and hold the power button on the side of your chromebook and then click "sign out". wait a few seconds, and you'll be brought back to the lockscreen.</li>
             <li>since it's in complete fullscreen, there's no back or forward arrows or url bar to easily navigate between sites. if you need to go back to the previous site, click the physical back arrow button on your keyboard.</li>
             <li>because this exploit is a bit janky, just be aware that it may glitch or stop working sometimes (although 99% of the time it works great.)</li>
 
@@ -331,7 +333,7 @@
         <br>❗ important tips and info you should know when using nowgg:
         <ul style="list-style-type: disc;">
             <li>you can't really play any high-performance or graphics-intensive roblox games like FPS games and whatnot, since it will most likely freeze, crash, or just lag super bad if you do. this exploit is much more well-suited for simpler, more casual games like brookhaven or grow a garden or whatever the hell it is you kids play these days. honestly i really hope you weren't expecting a triple-A, high-quality gaming experience from this janky exploit</li>
-            <li>if you're using the chromesignin bypass rather than the ti84calc bypass, mouselock doesn't work. this means can't really play any game in first-person because if you move your mouse too far it will drift off the screen. you could just use the regular touch controls like on a phone, since the chromebooks do have touchscreens, but they're too slow and janky for playing any games that need fast input response-times, like competetive FPS games.</li>
+            <li>if you're using the chromesignin bypass rather than the ti84calc bypass, mouselock doesn't work. this means can't really play any game in first-person because if you move your mouse too far it will drift off the screen. you could just use the regular touch controls like on a phone, since the chromebooks do have touchscreens, but they're too slow and janky for playing any games that need fast input response-times, like competitive FPS games.</li>
             <li>you may sometimes get popups saying something like "yOu WoN a NoWbUx!!1!", these are just nowgg trying to make you give them your money, just close them</li>
             <li>sometimes nowgg is just glitchy and awful, like sometimes it will say "servers under high load" and won't let you play, or sometimes it will just crash randomly or be glitchy and weird for no reason. don't expect it to work all the time.</li>
         </ul>

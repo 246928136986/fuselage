@@ -1,0 +1,10 @@
+todo list!!!!!!
+-revoke statement about not being able to use fullscreen in csi webview (use fullscreen button on kb)
+-add securly dns bypass (omada)
+
+add misc section:
+-add random tech lifehacks section (powerwash, hard refresh, etc)
+-add the list of truth
+-add fun websites (alfs room, etc)
+-add 88x31 buttons maybe
+-webcamxp hacks n stuff (add somewhere)

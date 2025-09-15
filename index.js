@@ -49,11 +49,15 @@
         li {
             margin-bottom: 5px;
         }
+        .footnote {
+            font-size: 12px;
+            color: rgb(116, 143, 143);
+        }
     </style>
 </head>
 <body>
     <div id="main">
-        <h1 id="title">riptide<span style="font-size: 16px; font-weight: 400;"> v1.0.5</span></h1>
+        <h1 id="title">riptide<span style="font-size: 16px; font-weight: 400;"> v1.0.7</span></h1>
         a document to share info and resources for curing boredom at school.
         <h2>table of contents</h2>
         <ul style="list-style-type:disc;">
@@ -62,12 +66,18 @@
             <li><a href="#movies" class="hyperlink">movies/tv</a></li>
             <li><a href="#browsing" class="hyperlink">web browsing (proxies)</a></li>
             <li><a href="#tools" class="hyperlink">tools & exploits</a></li>
+<!--
+                        <li><a href="#misc" class="hyperlink">miscellaneous</a></li>
+
+-->
+
             <li><a href="#about" class="hyperlink">about</a></li>
 
         </ul>
         
-        <h2 id="annc">announcements (9/07/2025)</h2>
-        added <a href="#webview" class="hyperlink">webview bypass exploits</a> to the tools & exploits section.
+        <h2 id="annc">announcements (9/15/2025)</h2>
+        organized the <a href="#tools" class="hyperlink">tools & exploits</a> section by adding links to all the exploits in the header (since there's now a crapload of exploits and it's hard to scroll through them all)
+        <br>also i'm aware the webview bypass exploits do not get past network-level firewalls on school wifi, i'm currently working to find a workaround for it.
         <br><br>---------------------------------------------------------------------------------------------------------------------------------
 
         <h2 id="games">games</h2>
@@ -160,7 +170,18 @@
         <h2 id="tools">tools & exploits</h2>
         a bunch of different online tools and exploits for many different purposes.<br>
         please note that some of these are complicated and are for more skilled users. if you're having trouble using one of these, you can send me an email and i'll try to help you out (find in the contact section of the <a href="#about" class="hyperlink">footer</a>).
-        <h3><br>unblocked youtube (invidious)</h3>
+        <br><br>here's the list of all the exploits on here currently. click one to be brought to it.
+        <ul style="list-style-type: disc;">
+            <li><a href="#yt" class="hyperlink">unblocked youtube (invidious)</a></li>
+            <li><a href="#ai" class="hyperlink">ai tools</a></li>
+            <li><a href="#webview" class="hyperlink">webview bypass exploits</a></li>
+            <li><a href="#cswv" class="hyperlink">chromesignin webview bypass</a></li>
+            <li><a href="#tiwv" class="hyperlink">ti84calc kiosk webview bypass</a></li>
+            <li><a href="#ngg" class="hyperlink">now.gg roblox on chromebook</a></li>
+            <li><a href="#dns" class="hyperlink">securly dns bypass</a></li>
+
+        </ul>
+        <h3 id="yt"><br>unblocked youtube (invidious)</h3>
         watch youtube videos with no ads and with no school restrictions.<br><br>
         this is done using a site called invidious, which is an alternate youtube frontend. you can watch any videos that are on youtube, but without any ads, tracking, or restrictions.
         
@@ -178,7 +199,7 @@
         <br><br>if it isn't not working, please don't complain to me about it, i don't run any of the invidious servers :(
         
         
-        <h3><br>ai tools</h3>
+        <h3 id="ai"><br>ai tools</h3>
         these are just some ai chatbots that are unblocked. make sure to pick one that's right for what you need!
         <ul style="list-style-type:disc;">
             <li><a href="https://chat.z.ai" target="_blank" class="hyperlink">z.ai</a> - just a regular old chatbot! 👍 make sure to turn off the auto-think button if you want faster answers.</li>
@@ -189,12 +210,15 @@
         </ul> 
 
         <h3 id="webview"><br><br>webview bypass exploits (⚠️ advanced users only!)</h3>
-        webviews are small, isolated web browsers that are embedded into apps and are completely seperate from your actual browser, meaning that extensions, such as securly, won't run there. because of this, anything in a webview is completely unblocked.
+        webviews are small, isolated web browsers that are embedded into apps and are completely seperate from your actual browser, meaning that extensions, such as securly, won't run there. because of this, anything in a webview is completely unblocked.*
+        <span class="footnote">
+            <br>*webviews do NOT bypass network-level blocks on school wifi such as fortiguard/fortinet. because of this, on your home wifi, everything will be unblocked, but on school wifi, you'll still have to deal with fortiguard that blocks a lot of sites. i'm currently trying to find a workaround for this, so please be patient.
+        </span>        
         <br><br>normally, webviews within apps are confined to only be able to access a single website, but sometimes lazy (or stupid) developers forget to restrict them, and you can proceed to go on any website you'd like within the unblocked webview!
         <br><br>the main benefit of using webviews rather than proxies to access blocked sites is that since the webview acts like a normal browser, websites aren't suspicious of you in the same way they would be with proxies. many websites like youtube don't allow people on proxies to use their site, since proxies are oftentimes used by hackers to try and hack websites, meaning it's more suspicious when you're on a proxy and some websites might try to block you out.
         <br><br>⛔ note: webview exploits are complicated and are only recommended for more experienced users with atleast basic knowledge of computers n stuff. if that's not you, you should instead use proxies to access blocked sites, as they're much more simple to use. ⛔
         <br><br><br>i've currently found two different working webview exploits, and they both have pros and cons.
-        <br><br>the chromesignin webview bypass is the easier of the two, however, it has limitations such as not being able to use fullscreen mode or mouselock, which are both important if you want to do things like play first-person games and whatnot, such as with the nowgg roblox exploit found below. some benefits of it are that since it runs inside of a tab in google chrome that can be quickly closed or tabbed away from, it can be much more discreet to have open in school.
+        <br><br>the chromesignin webview bypass is the easier of the two, however, it has limitations such as not being able to use real fullscreen mode or mouselock, which are both important if you want to do things like play first-person games and whatnot, such as with the nowgg roblox exploit found below (yes, you can use the fullscreen button, but this just fullscreens the entire thing. for example, if you use the fullscreen button while watching youtube, the video won't take up your whole screen like normal, it'll just be the regular video page but fullscreened.) some benefits of it are that since it runs inside of a tab in google chrome that can be quickly closed or tabbed away from, it can be much more discreet to have open in school.
         <br><br>the ti84calc kiosk webview bypass is a bit more complicated, and runs within a kiosk app, meaning that it will take up your whole screen, it can't be quickly closed out of, and it runs while you're logged out from the chromeos desktop. however, it has the benefit that it supports fullscreen and mouselock.
         <br><br>if you're confused about which one to choose, i've made a handy list of use-cases that are recommended for each one:
         <br><br>chromesignin bypass:
@@ -211,7 +235,7 @@
         </ul>
 
 
-        <h3><br><br>chromesignin webview bypass (⚠️ advanced users only!)</h3>
+        <h3 id="cswv"><br><br>chromesignin webview bypass (⚠️ advanced users only!)</h3>
         this exploit works by opening up and then bypassing a webview inside of the google chrome signin page. for more info about webview exploits like this, see the "webview bypass exploits" section above.
         <br><br>thanks to peckishtomato and blackmun on the titaniumnetwork discord server for this specific variation of the exploit!!
         <br><br>here are the steps:
@@ -255,8 +279,9 @@
 
 
 
-        <h3><br><br>ti84calc kiosk webview bypass (⚠️ advanced users only!)</h3>
+        <h3 id="tiwv"><br><br>ti84calc kiosk webview bypass (⚠️ advanced users only!)</h3>
         for whatever reason, our school district decided to put an online ti84 calculator emulator website as a kiosk app on everyone's chromebooks. not sure why, but i don't really care because all we need it for is to exploit it's webview!
+        <br><br>for more info about webview exploits like this, see the "webview bypass exploits" section above.
         <br><br>i found this exploit, so don't skid it or i'll rip off your toenails<br><br>
         here's the steps!!
         <ul style="list-style-type: decimal;">
@@ -294,7 +319,7 @@
 
 
 
-        <h3><br><br>play roblox on your chromebook through now.gg [requires use of a webview bypass!]</h3>
+        <h3 id="ngg"><br><br>play roblox on your chromebook through now.gg [requires use of a webview bypass!]</h3>
         how this works:<br>
         there's a website called now.gg that allows you to play roblox in your browser by running the roblox app in an android emulator on a cloud server, then streaming the audio and video from it to your browser, and streaming your touch and keyboard inputs to the cloud server. basically, it just makes a fake android phone running roblox that you can use in your browser.
         <br><br>sadly (although for very obvious reasons), nowgg is blocked on securly. however, since the webview bypasses let you access almost any blocked site, we can put two and two together and access nowgg through the webview!
@@ -338,9 +363,10 @@
             <li>sometimes nowgg is just glitchy and awful, like sometimes it will say "servers under high load" and won't let you play, or sometimes it will just crash randomly or be glitchy and weird for no reason. don't expect it to work all the time.</li>
         </ul>
 
-
-
-
+        <h3 id="dns"><br><br>securly dns bypass (super easy)</h3>
+        use a custom dns server (hosted by omada) that's designed to block securly from working. it also blocks ads on some websites.
+        <br><br>it basically disables the securly extension, but doesn't bypass network blocks including fortiguard.
+        <br><br>instructions coming soon (maybe in a day or two) since i'm still experimenting with this exploit
 
 
         <!--
@@ -353,6 +379,47 @@
 
         </ul> 
     -->
+<!--
+
+        <br><br>---------------------------------------------------------------------------------------------------------------------------------
+        <h2 id="misc">miscellaneous</h2>
+        these are random things that aren't really related to school or unblocking but are still fun/interesting.
+        <h4>unsecured live webcams/security cameras (webcamxp/webcam7)</h4>
+        there's a software called webcamxp5 (or webcam7) that allows people to hook up security cameras to their computers and view them from any device. 
+        <br>however, many people who use this software are not smart enough to password-protect their webcams, so they can be viewed by anyone on the internet with a simple google search and a few minutes of free time to find them.
+        <br>i would give out the method to find these webcams, but it's not the safest and can sometimes end you up on some... not good... corners of the internet (viruses, etc).
+        <br><br>however, you can look at some of these webcams i've already found and documented below.
+        <br><br>some of these are home security cameras, some are cameras inside of stores or offices, some are just random things like views of lakes or oceans, and some are even creepy views of dark areas. honestly, there's a bit of everything. 
+        <br><br>each of these entries has a name, link, and description. see them below:
+        <ul style="list-style-type:disc;">
+            <li><a href="http://68.115.218.130:32479/multi.html" target="_blank" class="hyperlink">animal shelter</a> - security cameras inside what appears to be an animal shelter for dogs. during the day you can even see the dogs playing!</li>
+            <li><a href="http://139.64.168.120:8080/multi.html" target="_blank" class="hyperlink">another animal shelter</a> - also seems like an animal shelter, but with both cats and dogs! the name on the osd is "cache valley pet hotel". googled it, and yep, its an animal shelter.</li>
+            <li><a href="http://88.166.157.13:8085/multi.html" target="_blank" class="hyperlink">rural farm</a> - 5 different camera views of a cute little farm in the woods. sometimes you can see animals!</li>
+            <li><a href="http://99.114.240.169:8080/multi.html" target="_blank" class="hyperlink">ocean view</a> - just a camera pointed out at the ocean or maybe a lake.</li>
+            <li><a href="http://193.110.163.150:8080/multi.html" target="_blank" class="hyperlink">yunasko factory</a> - security cameras inside a factory or something. the company name "yunasko" seems to be a company manufacturing ultracapacitors.</li>
+            <li><a href="http://77.173.146.165:8080/multi.html" target="_blank" class="hyperlink">trolley station</a> - currently i can only see properly out of one of the cameras on this one, and it seems to be of a trolley station in europe. you can see people walking around the station during the day.</li>
+            <li><a href="http://109.206.96.75:8080/multi.html" target="_blank" class="hyperlink">"naxi radio" street view</a> - a ton of cameras pointed at huge busy streets in some foreign country.</li>
+            <li><a href="http://109.206.96.96:8080/multi.html" target="_blank" class="hyperlink">"naxi radio" street view 2</a> - a bunch more street view cameras</li>
+            <li><a href="http://75.149.26.30:1024/multi.html" target="_blank" class="hyperlink">radio station office</a> - camera inside the office of a radio station "97.5 The Hound".</li>
+            <li><a href="http://95.255.183.164:8080/multi.html" target="_blank" class="hyperlink">house? office? idk?</a> - a view inside someone's house or maybe an office lobby pointed at their desk. you can see a glass door in the background</li>
+            <li><a href="http://109.233.191.130:8080/multi.html" target="_blank" class="hyperlink">even more streetview cameras</a> - yep, just more streetview cameras! the cctld (.rs) is for serbia, so i guess these cameras are in serbia!</li>
+            <li><a href="http://85.93.53.175:8080/multi.html" target="_blank" class="hyperlink">appliance store</a> - security cameras in what appears to be a home appliance store.</li>
+            <li><a href="https" target="_blank" class="hyperlink">name</a> - desc</li>
+     
+
+
+</ul> 
+
+
+-->
+
+
+
+
+
+
+
+
         <br><br>---------------------------------------------------------------------------------------------------------------------------------
         <h2 id="about">about</h2>
         <h4>what is riptide?</h4>

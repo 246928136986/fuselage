@@ -57,7 +57,7 @@
 </head>
 <body>
     <div id="main">
-        <h1 id="title">riptide<span style="font-size: 16px; font-weight: 400;"> v1.0.7</span></h1>
+        <h1 id="title">riptide<span style="font-size: 16px; font-weight: 400;"> v1.0.9</span></h1>
         a document to share info and resources for curing boredom at school.
         <h2>table of contents</h2>
         <ul style="list-style-type:disc;">
@@ -76,8 +76,12 @@
         </ul>
         
         <h2 id="annc">announcements (9/15/2025)</h2>
-        organized the <a href="#tools" class="hyperlink">tools & exploits</a> section by adding links to all the exploits in the header (since there's now a crapload of exploits and it's hard to scroll through them all)
-        <br>also i'm aware the webview bypass exploits do not get past network-level firewalls on school wifi, i'm currently working to find a workaround for it.
+        added <a href="#dns" class="hyperlink">securly dns bypass</a><br><br>
+        added <a href="#pwsh" class="hyperlink">chromebook powerwash</a><br><br>
+
+        deprecated riptide movies<br><br>
+        cleaned out some of the old dead <a href="#games" class="hyperlink">game site</a> links<br><br>
+        temporarily removed nebula from <a href="#browsing" class="hyperlink">proxies</a>, as their servers are not working
         <br><br>---------------------------------------------------------------------------------------------------------------------------------
 
         <h2 id="games">games</h2>
@@ -87,14 +91,11 @@
         <br>🔥 = great site (lots of games)<br><br>
         game sites:
         <ul style="list-style-type:disc;">
-            <li>⭐ <a href="https://content-cdn.liferod.com/projects.html" target="_blank" class="hyperlink">selenite</a></li>
-
             <li>⭐ <a href="https://image-cdn.arionskyclub.com" target="_blank" class="hyperlink">the pizza edition</a></li>
             <li>🔥 <a href="https://mathwork-geometry.github.io/projects.html" target="_blank" class="hyperlink">3kh0 lite</a></li>
             <li>🔥 <a href="https://boredmath.github.io" target="_blank" class="hyperlink">boredmath</a></li>
             <li><a href="https://class44x.github.io/gxmes/" target="_blank" class="hyperlink">class44x</a></li>
             <li><a href="https://about-benito-mussolini.github.io/" target="_blank" class="hyperlink">about-benito-mussolini</a> (when you go to the site, click on the "© 2024 About Benito Mussolini" at the bottom to open the real site)</li>
-            <li><a href="https://www.msn.com/en-us/play" target="_blank" class="hyperlink">msn games</a></li>
 
         </ul>
         
@@ -105,7 +106,8 @@
         watch movies, tv, anime, or whatever on your school chromebook for free, with no sign-in or anything.<br><br>
         movie websites:
         <ul style="list-style-type:disc;">
-            <li><a href="https://image-cdn.survifi.com/mov.html" target="_blank" class="hyperlink">riptide movies</a> (made by me, designed specifically for school chromebooks. no ads or popups, works most of the time)</li>
+            <li><a href="https://image-cdn.survifi.com/mov.html" target="_blank" class="hyperlink">p-stream</a> - works super well!</li>
+            <li><a href="https://image-cdn.survifi.com/mov.html" target="_blank" class="hyperlink-dead">riptide movies</a> riptide movies is kinda garbage and has been deprecated. please use a different movie site.</li>
 
 
         </ul>
@@ -129,15 +131,14 @@
         proxies are sites that allow you to access blocked websites by routing your web traffic through an external server.<br><br>
         please note that proxies can be glitchy when trying to access certain websites, and some sites, mainly social media sites like youtube and discord, will intentionally block you out if you're on a proxy. to get access to these sites, you should instead use a webview bypass exploit, found in the <a href="#tools" class="hyperlink">tools & exploits</a> section.
         <br><br>most of the proxy links here are custom-made links that are for many different proxy sites. the proxy links here are organized by the different sites they link to.
-        <br><br>✨ = new link!
         <h3><br>🧪 arsenic</h3>
         pretty nice proxy, tons of games!
         <ul style="list-style-type:disc;">
-            <li>✨ <a href="https://riptide.cnsdata.com" target="_blank" class="hyperlink">riptide.cnsdata.com</a></li>
-            <li>✨ <a href="https://riptide.linked8.net" target="_blank" class="hyperlink">riptide.linked8.net</a></li>
-            <li>✨ <a href="https://riptide.hetz.pro" target="_blank" class="hyperlink">riptide.hetz.pro</a></li>
-            <li>✨ <a href="https://riptide.cet3.ar" target="_blank" class="hyperlink">riptide.cet3.ar</a></li>
-            <li>✨ <a href="https://i-can-literally-set-this-subdomain-to-whatever-i-want.nationwidesolar.org" target="_blank" class="hyperlink">i-can-literally-set-this-subdomain-to-whatever-i-want.nationwidesolar.org</a></li>
+            <li><a href="https://riptide.cnsdata.com" target="_blank" class="hyperlink">riptide.cnsdata.com</a></li>
+            <li><a href="https://riptide.linked8.net" target="_blank" class="hyperlink">riptide.linked8.net</a></li>
+            <li><a href="https://riptide.hetz.pro" target="_blank" class="hyperlink">riptide.hetz.pro</a></li>
+            <li><a href="https://riptide.cet3.ar" target="_blank" class="hyperlink">riptide.cet3.ar</a></li>
+            <li><a href="https://i-can-literally-set-this-subdomain-to-whatever-i-want.nationwidesolar.org" target="_blank" class="hyperlink">i-can-literally-set-this-subdomain-to-whatever-i-want.nationwidesolar.org</a></li>
 
             <li><a href="https://cdn.offshorenomads.net" target="_blank" class="hyperlink">cdn.offshorenomads.net</a></li>
             <li><a href="https://depressed.hosteriafutaleufu.cl/" target="_blank" class="hyperlink">depressed.hosteriafutaleufu.cl</a></li>
@@ -147,19 +148,22 @@
             -->
 
         </ul>
-        <h3>🪐 nebula</h3>
+        <!--
+                <h3>🪐 nebula</h3>
         nice, fast proxy with a lot of games (games are just radon.games but proxied.)
         <ul style="list-style-type:disc;">
             <li>✨ <a href="https://riptide8275.desmos.lol.cdn.cloudflare.net" target="_blank" class="hyperlink">riptide8275.desmos.lol.cdn.cloudflare.net</a></li>
             <li>✨ <a href="https://cdn.nb.studentvue.my.cdn.cloudflare.net" target="_blank" class="hyperlink">cdn.nb.studentvue.my.cdn.cloudflare.net</a></li>
 
         </ul>
+        -->
+
 
         <h3>🌙 lunar</h3>
         also a pretty good proxy. not very many games, but does support both ultraviolet and scramjet.
         <ul style="list-style-type:disc;">
-            <li>✨ <a href="https://math-homework.stayinschooleducation.org.cdn.cloudflare.net" target="_blank" class="hyperlink">math-homework.stayinschooleducation.org.cdn.cloudflare.net</a></li>
-            <li>✨ <a href="https://us-west-cdn.goguardian.pro.cdn.cloudflare.net" target="_blank" class="hyperlink">us-west-cdn.goguardian.pro.cdn.cloudflare.net</a></li>
+            <li><a href="https://math-homework.stayinschooleducation.org.cdn.cloudflare.net" target="_blank" class="hyperlink">math-homework.stayinschooleducation.org.cdn.cloudflare.net</a></li>
+            <li><a href="https://us-west-cdn.goguardian.pro.cdn.cloudflare.net" target="_blank" class="hyperlink">us-west-cdn.goguardian.pro.cdn.cloudflare.net</a></li>
 
         </ul>
 
@@ -179,6 +183,7 @@
             <li><a href="#tiwv" class="hyperlink">ti84calc kiosk webview bypass</a></li>
             <li><a href="#ngg" class="hyperlink">now.gg roblox on chromebook</a></li>
             <li><a href="#dns" class="hyperlink">securly dns bypass</a></li>
+            <li><a href="#pwsh" class="hyperlink">chromebook powerwash</a></li>
 
         </ul>
         <h3 id="yt"><br>unblocked youtube (invidious)</h3>
@@ -220,19 +225,7 @@
         <br><br><br>i've currently found two different working webview exploits, and they both have pros and cons.
         <br><br>the chromesignin webview bypass is the easier of the two, however, it has limitations such as not being able to use real fullscreen mode or mouselock, which are both important if you want to do things like play first-person games and whatnot, such as with the nowgg roblox exploit found below (yes, you can use the fullscreen button, but this just fullscreens the entire thing. for example, if you use the fullscreen button while watching youtube, the video won't take up your whole screen like normal, it'll just be the regular video page but fullscreened.) some benefits of it are that since it runs inside of a tab in google chrome that can be quickly closed or tabbed away from, it can be much more discreet to have open in school.
         <br><br>the ti84calc kiosk webview bypass is a bit more complicated, and runs within a kiosk app, meaning that it will take up your whole screen, it can't be quickly closed out of, and it runs while you're logged out from the chromeos desktop. however, it has the benefit that it supports fullscreen and mouselock.
-        <br><br>if you're confused about which one to choose, i've made a handy list of use-cases that are recommended for each one:
-        <br><br>chromesignin bypass:
-        <ul style="list-style-type: disc;">
-            <li>use during class where you need it to be discreet</li>
-            <li>playing regular 2D web games and stuff that don't really need fullscreen or mouselock</li>
-            <li>regular web browsing</li>
-        </ul>
-        ti84calc kiosk bypass:
-        <ul style="list-style-type: disc;">
-            <li>playing 3D or first-person games which need mouselock</li>
-            <li>using the nowgg bypass to play roblox (find below)</li>
-            <li>doing anything that you need/want fullscreen for</li>
-        </ul>
+
 
 
         <h3 id="cswv"><br><br>chromesignin webview bypass (⚠️ advanced users only!)</h3>
@@ -363,10 +356,46 @@
             <li>sometimes nowgg is just glitchy and awful, like sometimes it will say "servers under high load" and won't let you play, or sometimes it will just crash randomly or be glitchy and weird for no reason. don't expect it to work all the time.</li>
         </ul>
 
-        <h3 id="dns"><br><br>securly dns bypass (super easy)</h3>
-        use a custom dns server (hosted by omada) that's designed to block securly from working. it also blocks ads on some websites.
+        <h3 id="dns"><br><br>securly dns bypass (omadaDNS) - super easy!!</h3>
+        use a custom dns server (hosted by omada) that's designed to block spyware and blocking extensions like securly from working. it also blocks ads on some websites.
         <br><br>it basically disables the securly extension, but doesn't bypass network blocks including fortiguard.
-        <br><br>instructions coming soon (maybe in a day or two) since i'm still experimenting with this exploit
+        <br><br>you CANNOT use this on the school wifi, since the LS wifi profile on all enrolled chromebooks is admin configured to use preset nameservers. this ONLY works when you're on your home wifi.
+        <ul style="list-style-type: decimal;">
+            <li>go to settings > network > wifi</li>
+            <li>find the name of the wifi network you want to add this bypass to, and click it (remember, you CANNOT do this to the school wifi)</li>
+            <li>scroll down and click "network", then scroll down to "name servers"</li>
+            <li>check the box "custom name servers"</li>
+            <li>set the first and second addresses to 66.23.198.252 and 66.94.105.229 (leave the rest as 0.0.0.0)</li>
+            <li>optional: repeat these steps for each wifi network you would like to unblock</li>
+            <li>🎉 profit!! securly should now be disabled on those wifi networks.</li>
+
+        </ul>
+
+
+        <h3 id="pwsh"><br><br>chromebook powerwash</h3>
+        "powerwashing" a chromebook is when you fully wipe all of the data off it and are taken back to the original setup screen.
+        <br><br>important: this will NOT get you out of the school software and restrictions such as securly. as soon as you connect to wifi and start going through setup, it will phone home to a google server and add all of the school spyware back automatically. this guide is mostly just here for if you are having issues with your chromebook and need a brute-force way to troubleshoot it. 
+
+        <br><br>also important: this will completely wipe all of the downloaded files, browser cookies, etc, but will add back almost all of your google account stuff and settings, such as wallpaper, bookmarks, apps, etc, once you sign in with your school account.
+        <br><br>also also important: do NOT do this at school, as you will not be able to connect to school wifi to re-enroll and you'll have to take it to IT to get it working. you should only do this at home where you can use your home wifi. make sure you know your home wifi password!!!
+        <ul style="list-style-type: decimal;">
+            <li>press the keybind esc+refresh+power to boot into chromeOS recovery mode.
+                <ul style="list-style: disc;">
+                    <li>this might take a few tries. if it just reboots you into regular old chromeOS, try again until you get to recovery.</li>
+                    <li>make sure you're pressing the physical refresh key on your keyboard (in the top row).</li>
+                </ul>
+            </li>
+
+            <li>do ctrl+d to get to the devmode screen. it will probably warn you about your system being insecure, don't worry about that since you're not actually going to use devmode.</li>
+            <li>hit enter to confirm, and the screen will go black for a few seconds. then, your chromebook will make a very loud and annoying beep noise, and it will tell you developer mode is not allowed ask you to "return to secure mode".</li>
+            <li>return to secure mode and your screen will go black again.</li>
+            <li>it should show a message like "system last booted in developer mode, returning to secure mode. upon completion system will reboot".</li>
+            <li>after a while, it will show you the chromebook setup screen "welcome to chromebook".</li>
+            <li>to setup and log back in, hit "get started" and follow the prompts. connect to wifi, sign back in with your school account, etc. and you should be good to go!</li>
+
+
+        </ul>
+
 
 
         <!--
@@ -420,7 +449,7 @@
 
 
 
-        <br><br>---------------------------------------------------------------------------------------------------------------------------------
+        ---------------------------------------------------------------------------------------------------------------------------------
         <h2 id="about">about</h2>
         <h4>what is riptide?</h4>
         riptide is a document that i use to share links, resources, and information about curing boredom at school. i update it at least every few days with fresh links and stuff.<br><br>

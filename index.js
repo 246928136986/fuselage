@@ -75,7 +75,7 @@
 
         </ul>
         
-        <h2 id="annc">announcements (9/15/2025)</h2>
+        <h2 id="annc">announcements (9/28/2025)</h2>
         added <a href="#dns" class="hyperlink">securly dns bypass</a><br><br>
         added <a href="#pwsh" class="hyperlink">chromebook powerwash</a><br><br>
 
